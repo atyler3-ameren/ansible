@@ -2,10 +2,10 @@
 - hosts: all
   connection: local
   gather_facts: no
-  
+  
   tasks:
-  - name: show version 
-    ios_command:
-      commands:
+  - name: test task
+    nxos_command:
+      commands:
       - show ip int br
 
