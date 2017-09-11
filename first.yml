@@ -5,7 +5,7 @@
   
   tasks:
   - name: show version 
-     ios_command:
+    ios_command:
       commands:
-        - show ip int br
+      - show ip int br
 
